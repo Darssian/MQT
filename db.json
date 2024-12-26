@@ -1,0 +1,1066 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "title": "Снятие проклятия с замка",
+      "description": "В тронном зале по ночам слышны жуткие стоны призраков.",
+      "customerName": "Сэр Джон",
+      "reward": 500,
+      "status": "новый",
+      "deadline": "2025-01-20",
+      "createdAt": "2024-12-20T10:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Призыв огненного элементаля",
+      "description": "Нужен элементаль, чтобы охранять склады от ледяных троллей.",
+      "customerName": "Графиня Эстель",
+      "reward": 1200,
+      "status": "новый",
+      "deadline": "2025-01-25",
+      "createdAt": "2024-12-21T08:15:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Развеять чары в тёмном лесу",
+      "description": "Лес полон иллюзий и ловушек, мешающих торговым караванам.",
+      "customerName": "Лесничий Бран",
+      "reward": 800,
+      "status": "новый",
+      "deadline": "2025-02-10",
+      "createdAt": "2024-12-22T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Изгнание демона из подземелий",
+      "description": "Демон терроризирует шахтёров, грозя обвалить своды.",
+      "customerName": "Барон Корвин",
+      "reward": 2500,
+      "status": "новый",
+      "deadline": "2025-03-01",
+      "createdAt": "2024-12-23T14:20:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Починка магического барьера",
+      "description": "Защитный барьер стал пропускать духов и нежить в пригород.",
+      "customerName": "Совет магов",
+      "reward": 3000,
+      "status": "новый",
+      "deadline": "2025-03-10",
+      "createdAt": "2024-12-24T11:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Создание летающего корабля",
+      "description": "Требуется наложить заклинания левитации на морское судно.",
+      "customerName": "Капитан Флинт",
+      "reward": 5000,
+      "status": "новый",
+      "deadline": "2025-04-25",
+      "createdAt": "2024-12-25T08:00:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Лечение магической болезни",
+      "description": "Жителей деревни поражает редкая лихорадка, нужен сильный целитель.",
+      "customerName": "Староста Нортон",
+      "reward": 700,
+      "status": "новый",
+      "deadline": "2025-01-30",
+      "createdAt": "2024-12-26T10:10:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Поиск пропавшего артефакта",
+      "description": "Древний магический амулет украден из храма, нужно найти воров.",
+      "customerName": "Настоятель храма",
+      "reward": 1500,
+      "status": "новый",
+      "deadline": "2025-02-01",
+      "createdAt": "2024-12-27T09:45:00Z",
+      "assignee": {
+        "id": 3,
+        "name": "Ивеус",
+        "avatar": "https://i.postimg.cc/J4CpN9Dm/image.webp"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Защита деревни от орды гоблинов",
+      "description": "Гоблины нападали по ночам, нужны оборонительные магические руны.",
+      "customerName": "Старейшина Морт",
+      "reward": 1100,
+      "status": "новый",
+      "deadline": "2025-03-05",
+      "createdAt": "2024-12-28T12:05:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Снятие сглаза с наследника",
+      "description": "Наследник короля проклят, нужно снять проклятие до совершеннолетия.",
+      "customerName": "Королевская семья",
+      "reward": 4000,
+      "status": "новый",
+      "deadline": "2025-02-20",
+      "createdAt": "2024-12-29T07:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 11,
+      "title": "Открытие портала в параллельный мир",
+      "description": "Требуется короткое открытие портала для дипломатической миссии.",
+      "customerName": "Князь Астрид",
+      "reward": 3500,
+      "status": "новый",
+      "deadline": "2025-03-30",
+      "createdAt": "2024-12-30T10:10:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Дрессировка фамильяра",
+      "description": "Фамильяр-дракон подросток слишком своенравен, нужен опытный маг-зверолов.",
+      "customerName": "Ученик Рональд",
+      "reward": 600,
+      "status": "новый",
+      "deadline": "2025-01-22",
+      "createdAt": "2024-12-31T16:00:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Наложение заклятия невидимости",
+      "description": "Караван с сокровищами должен незаметно пройти сквозь пустоши.",
+      "customerName": "Торговый альянс",
+      "reward": 2200,
+      "status": "новый",
+      "deadline": "2025-04-05",
+      "createdAt": "2025-01-01T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Исцеление родника от отравы",
+      "description": "Питьевой источник заражён колдовским ядом, нужна очистка.",
+      "customerName": "Жители селения Дью",
+      "reward": 900,
+      "status": "новый",
+      "deadline": "2025-02-25",
+      "createdAt": "2025-01-02T14:00:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Пробуждение древнего голема",
+      "description": "Мощный голем нужен для защиты горного перевала от снежных чудовищ.",
+      "customerName": "Гильдия скотоводов",
+      "reward": 2000,
+      "status": "новый",
+      "deadline": "2025-04-15",
+      "createdAt": "2025-01-03T07:30:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+
+    {
+      "id": 16,
+      "title": "Снятие проклятия с замка",
+      "description": "В коридорах слышен леденящий стон, призраки бродят повсюду.",
+      "customerName": "Баронесса Аделаида",
+      "reward": 550,
+      "status": "в процессе",
+      "deadline": "2025-01-28",
+      "createdAt": "2025-01-04T10:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Призыв огненного элементаля",
+      "description": "С помощью элементаля хотят остановить нашествие снежных великанов.",
+      "customerName": "Граф Фолк",
+      "reward": 1300,
+      "status": "в процессе",
+      "deadline": "2025-02-12",
+      "createdAt": "2025-01-05T08:15:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Развеять чары в тёмном лесу",
+      "description": "Тёмный лес недопустимо опасен, колдуны жалуются на пропажу учеников.",
+      "customerName": "Охотник Хаген",
+      "reward": 820,
+      "status": "в процессе",
+      "deadline": "2025-02-18",
+      "createdAt": "2025-01-06T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Изгнание демона из подземелий",
+      "description": "Демон угрожает ритуалом, способным вызвать землетрясение.",
+      "customerName": "Шахтовладелец Грэй",
+      "reward": 2600,
+      "status": "в процессе",
+      "deadline": "2025-03-02",
+      "createdAt": "2025-01-07T14:20:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Починка магического барьера",
+      "description": "Барьер треснул, в город пробираются монстры из пустошей.",
+      "customerName": "Королевская канцелярия",
+      "reward": 3100,
+      "status": "в процессе",
+      "deadline": "2025-03-12",
+      "createdAt": "2025-01-08T11:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 21,
+      "title": "Создание летающего корабля",
+      "description": "Нужно усилить чары левитации для массивного галеона.",
+      "customerName": "Адмирал Брагг",
+      "reward": 5200,
+      "status": "в процессе",
+      "deadline": "2025-04-28",
+      "createdAt": "2025-01-09T08:00:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Лечение магической болезни",
+      "description": "Жителей портового города поразил странный морской мор.",
+      "customerName": "Торговая гильдия",
+      "reward": 750,
+      "status": "в процессе",
+      "deadline": "2025-02-03",
+      "createdAt": "2025-01-10T10:10:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Поиск пропавшего артефакта",
+      "description": "Редкий кристалл иллюзий исчез из коллекции графа.",
+      "customerName": "Граф Стерн",
+      "reward": 1600,
+      "status": "в процессе",
+      "deadline": "2025-02-06",
+      "createdAt": "2025-01-11T09:45:00Z",
+      "assignee": {
+        "id": 3,
+        "name": "Ивеус",
+        "avatar": "https://i.postimg.cc/J4CpN9Dm/image.webp"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Защита деревни от орды гоблинов",
+      "description": "Гоблины похищают скот и разоряют поля, нужны руны защиты.",
+      "customerName": "Староста Вегар",
+      "reward": 1150,
+      "status": "в процессе",
+      "deadline": "2025-03-08",
+      "createdAt": "2025-01-12T12:05:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Снятие сглаза с наследника",
+      "description": "Наследник герцога под проклятием, нужны ритуалы очищения.",
+      "customerName": "Герцог Винсент",
+      "reward": 4100,
+      "status": "в процессе",
+      "deadline": "2025-02-24",
+      "createdAt": "2025-01-13T07:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 26,
+      "title": "Открытие портала в параллельный мир",
+      "description": "Купец ищет путь в параллельный мир для редких товаров.",
+      "customerName": "Купец Бастиан",
+      "reward": 3550,
+      "status": "в процессе",
+      "deadline": "2025-03-31",
+      "createdAt": "2025-01-14T10:10:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Дрессировка фамильяра",
+      "description": "Фамильяр-саламандра выделяет огненную слизь, жжёт всё вокруг.",
+      "customerName": "Ученик Питер",
+      "reward": 650,
+      "status": "в процессе",
+      "deadline": "2025-01-25",
+      "createdAt": "2025-01-15T16:00:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Наложение заклятия невидимости",
+      "description": "Караван с редкими реагентами должен пройти незамеченным.",
+      "customerName": "Школа Алхимии",
+      "reward": 2250,
+      "status": "в процессе",
+      "deadline": "2025-04-07",
+      "createdAt": "2025-01-16T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Исцеление родника от отравы",
+      "description": "Ключ с отравленной водой — угроза всему округу.",
+      "customerName": "Совет Друидов",
+      "reward": 950,
+      "status": "в процессе",
+      "deadline": "2025-02-27",
+      "createdAt": "2025-01-17T14:00:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Пробуждение древнего голема",
+      "description": "Голем нужен для охраны горного перевала от бандитов.",
+      "customerName": "Гильдия Наёмников",
+      "reward": 2100,
+      "status": "в процессе",
+      "deadline": "2025-04-16",
+      "createdAt": "2025-01-18T07:30:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+
+    {
+      "id": 31,
+      "title": "Снятие проклятия с замка",
+      "description": "Загадочные звуки в подземельях не дают спать гарнизону.",
+      "customerName": "Лорд Хагнар",
+      "reward": 600,
+      "status": "завершён",
+      "deadline": "2025-01-29",
+      "createdAt": "2025-01-19T10:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Призыв огненного элементаля",
+      "description": "Элементаль поможет растопить ледяные барьеры в северном тракте.",
+      "customerName": "Гильдия охотников",
+      "reward": 1350,
+      "status": "завершён",
+      "deadline": "2025-02-15",
+      "createdAt": "2025-01-20T08:15:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Развеять чары в тёмном лесу",
+      "description": "Туман иллюзий сбивает путников, нужно очистить тропы.",
+      "customerName": "Караванщики Запада",
+      "reward": 840,
+      "status": "завершён",
+      "deadline": "2025-02-22",
+      "createdAt": "2025-01-21T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Изгнание демона из подземелий",
+      "description": "Демон поднял скелетов, шахтёры боятся спускаться под землю.",
+      "customerName": "Баронесса Моргана",
+      "reward": 2700,
+      "status": "завершён",
+      "deadline": "2025-03-03",
+      "createdAt": "2025-01-22T14:20:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Починка магического барьера",
+      "description": "Городской барьер нужен для защиты от песчаных бурь.",
+      "customerName": "Хранитель пустыни",
+      "reward": 3200,
+      "status": "завершён",
+      "deadline": "2025-03-14",
+      "createdAt": "2025-01-23T11:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 36,
+      "title": "Создание летающего корабля",
+      "description": "Опытный дирижабль требует дополнительного заклинания баланса.",
+      "customerName": "Капитан Трим",
+      "reward": 5300,
+      "status": "завершён",
+      "deadline": "2025-04-30",
+      "createdAt": "2025-01-24T08:00:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Лечение магической болезни",
+      "description": "Волшебная лихорадка косит жителей в трёх селениях сразу.",
+      "customerName": "Мэр Фауст",
+      "reward": 780,
+      "status": "завершён",
+      "deadline": "2025-02-05",
+      "createdAt": "2025-01-25T10:10:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Поиск пропавшего артефакта",
+      "description": "Амулет затерялся в руинах старого замка, подозревают некромантов.",
+      "customerName": "Охотник за сокровищами Брак",
+      "reward": 1700,
+      "status": "завершён",
+      "deadline": "2025-02-08",
+      "createdAt": "2025-01-26T09:45:00Z",
+      "assignee": {
+        "id": 3,
+        "name": "Ивеус",
+        "avatar": "https://i.postimg.cc/J4CpN9Dm/image.webp"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Защита деревни от орды гоблинов",
+      "description": "Гоблины поджигают посевы, нужно спасти урожай.",
+      "customerName": "Старейшина Вэйл",
+      "reward": 1200,
+      "status": "завершён",
+      "deadline": "2025-03-10",
+      "createdAt": "2025-01-27T12:05:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциus",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Снятие сглаза с наследника",
+      "description": "Наследник правителя северных земель проклят ледяным кристаллом.",
+      "customerName": "Правитель Северин",
+      "reward": 4200,
+      "status": "завершён",
+      "deadline": "2025-02-26",
+      "createdAt": "2025-01-28T07:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 41,
+      "title": "Открытие портала в параллельный мир",
+      "description": "Учёные маги хотят исследовать новую реальность.",
+      "customerName": "Академия магии",
+      "reward": 3600,
+      "status": "завершён",
+      "deadline": "2025-04-01",
+      "createdAt": "2025-01-29T10:10:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Дрессировка фамильяра",
+      "description": "Фамильяр-феникс постоянно устраивает пожары, нужна помощь специалиста.",
+      "customerName": "Ученица Мири",
+      "reward": 700,
+      "status": "завершён",
+      "deadline": "2025-01-27",
+      "createdAt": "2025-01-30T16:00:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 43,
+      "title": "Наложение заклятия невидимости",
+      "description": "Гильдия шпионов хочет скрыть группу разведчиков за вражеской чертой.",
+      "customerName": "Гильдия шпионов",
+      "reward": 2300,
+      "status": "завершён",
+      "deadline": "2025-04-09",
+      "createdAt": "2025-01-31T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 44,
+      "title": "Исцеление родника от отравы",
+      "description": "Питьевой источник под угрозой, жители жалуются на тёмную слизь.",
+      "customerName": "Княжеская усыпальница",
+      "reward": 1000,
+      "status": "завершён",
+      "deadline": "2025-03-01",
+      "createdAt": "2025-02-01T14:00:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Пробуждение древнего голема",
+      "description": "Голем поможет прокладывать новый тракт через горы.",
+      "customerName": "Строительная артель",
+      "reward": 2200,
+      "status": "завершён",
+      "deadline": "2025-04-17",
+      "createdAt": "2025-02-02T07:30:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+
+    {
+      "id": 46,
+      "title": "Снятие проклятия с замка",
+      "description": "В зале для балов кружат зловещие ветра, пугающие гостей.",
+      "customerName": "Леди Арис",
+      "reward": 620,
+      "status": "отменён",
+      "deadline": "2025-01-28",
+      "createdAt": "2025-02-03T10:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Призыв огненного элементаля",
+      "description": "Кузнец желает улучшить металл ритуальным пламенем.",
+      "customerName": "Кузнец Грам",
+      "reward": 1400,
+      "status": "отменён",
+      "deadline": "2025-02-16",
+      "createdAt": "2025-02-04T08:15:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Развеять чары в тёмном лесу",
+      "description": "Отряд следопытов попал под гипноз лешего, нужна срочная помощь.",
+      "customerName": "Отряд следопытов",
+      "reward": 860,
+      "status": "отменён",
+      "deadline": "2025-03-02",
+      "createdAt": "2025-02-05T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 49,
+      "title": "Изгнание демона из подземелий",
+      "description": "Демон заручился поддержкой теневых духов, опасен для всей округи.",
+      "customerName": "Шахтёрская гильдия",
+      "reward": 2800,
+      "status": "отменён",
+      "deadline": "2025-03-05",
+      "createdAt": "2025-02-06T14:20:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 50,
+      "title": "Починка магического барьера",
+      "description": "Барьер не пропускает песчаных червей, но дал трещину.",
+      "customerName": "Город Зарат",
+      "reward": 3300,
+      "status": "отменён",
+      "deadline": "2025-03-16",
+      "createdAt": "2025-02-07T11:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 51,
+      "title": "Создание летающего корабля",
+      "description": "Нужно внедрить новые кристаллы левитации, но проект заморожен.",
+      "customerName": "Воздушные торговцы",
+      "reward": 5400,
+      "status": "отменён",
+      "deadline": "2025-05-01",
+      "createdAt": "2025-02-08T08:00:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 52,
+      "title": "Лечение магической болезни",
+      "description": "Необходимо найти источник заразного вируса и создать противоядие.",
+      "customerName": "Мэр Гелл",
+      "reward": 800,
+      "status": "отменён",
+      "deadline": "2025-02-07",
+      "createdAt": "2025-02-09T10:10:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 53,
+      "title": "Поиск пропавшего артефакта",
+      "description": "Амулет света пропал из священной ризницы, подозревают колдунов.",
+      "customerName": "Аббат Исмаэль",
+      "reward": 1750,
+      "status": "отменён",
+      "deadline": "2025-02-10",
+      "createdAt": "2025-02-10T09:45:00Z",
+      "assignee": {
+        "id": 3,
+        "name": "Ивеус",
+        "avatar": "https://i.postimg.cc/J4CpN9Dm/image.webp"
+      }
+    },
+    {
+      "id": 54,
+      "title": "Защита деревни от орды гоблинов",
+      "description": "Гоблины пробудили духов курганов, нужна сложная магия.",
+      "customerName": "Старейшина Рут",
+      "reward": 1250,
+      "status": "отменён",
+      "deadline": "2025-03-12",
+      "createdAt": "2025-02-11T12:05:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+    {
+      "id": 55,
+      "title": "Снятие сглаза с наследника",
+      "description": "Тёмные колдуны угрожают сорвать коронацию принца сильным проклятием.",
+      "customerName": "Король Альберт",
+      "reward": 4300,
+      "status": "отменён",
+      "deadline": "2025-02-28",
+      "createdAt": "2025-02-12T07:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+
+    {
+      "id": 56,
+      "title": "Открытие портала в параллельный мир",
+      "description": "Нужно попасть в мир духов за редким ингредиентом, проект приостановлен.",
+      "customerName": "Академик Клавдий",
+      "reward": 3650,
+      "status": "отменён",
+      "deadline": "2025-04-03",
+      "createdAt": "2025-02-13T10:10:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 57,
+      "title": "Дрессировка фамильяра",
+      "description": "Фамильяр-волк сбежал и бродит по округе, пугая сельчан.",
+      "customerName": "Ученик Тобиас",
+      "reward": 750,
+      "status": "отменён",
+      "deadline": "2025-01-26",
+      "createdAt": "2025-02-14T16:00:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+    {
+      "id": 58,
+      "title": "Наложение заклятия невидимости",
+      "description": "Пираты хотят скрыть корабль от береговой охраны.",
+      "customerName": "Пиратский клан",
+      "reward": 2350,
+      "status": "отменён",
+      "deadline": "2025-04-10",
+      "createdAt": "2025-02-15T09:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 59,
+      "title": "Исцеление родника от отравы",
+      "description": "Вода стала горькой, жители болеют, нужен ритуал очищения.",
+      "customerName": "Рыбаки у реки",
+      "reward": 1050,
+      "status": "отменён",
+      "deadline": "2025-03-03",
+      "createdAt": "2025-02-16T14:00:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 60,
+      "title": "Пробуждение древнего голема",
+      "description": "Голем должен охранять рудники от бандитов, проект отменён.",
+      "customerName": "Гильдия кузнецов",
+      "reward": 2300,
+      "status": "отменён",
+      "deadline": "2025-04-18",
+      "createdAt": "2025-02-17T07:30:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+
+    {
+      "id": 61,
+      "title": "Снятие проклятия с замка",
+      "description": "По ночам в замке оживают картины, пугая стражу.",
+      "customerName": "Принц Гарольд",
+      "reward": 650,
+      "status": "новый",
+      "deadline": "2025-01-30",
+      "createdAt": "2025-02-18T10:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 62,
+      "title": "Призыв огненного элементаля",
+      "description": "Хотим устроить фейерверк на городской площади к празднику.",
+      "customerName": "Мэрия Камелота",
+      "reward": 1450,
+      "status": "новый",
+      "deadline": "2025-02-18",
+      "createdAt": "2025-02-19T08:15:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    },
+    {
+      "id": 63,
+      "title": "Охрана магического турнира",
+      "description": "Нужны опытные маги, чтобы предотвратить несчастные случаи.",
+      "customerName": "Организаторы турнира",
+      "reward": 3000,
+      "status": "новый",
+      "deadline": "2025-05-12",
+      "createdAt": "2025-02-20T09:00:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 64,
+      "title": "Покорение грозовой элементали",
+      "description": "Нужно усмирить элементаль молнии на горном пике.",
+      "customerName": "Гильдия метеорологов",
+      "reward": 4000,
+      "status": "в процессе",
+      "deadline": "2025-06-01",
+      "createdAt": "2025-02-21T11:00:00Z",
+      "assignee": {
+        "id": 5,
+        "name": "Радгард",
+        "avatar": "https://i.postimg.cc/W12SKgwH/image.webp"
+      }
+    },
+    {
+      "id": 65,
+      "title": "Спасение деревни от огров",
+      "description": "Огры захватили мост и контролируют поставки еды.",
+      "customerName": "Староста Браун",
+      "reward": 1800,
+      "status": "новый",
+      "deadline": "2025-03-15",
+      "createdAt": "2025-02-22T14:00:00Z",
+      "assignee": {
+        "id": 6,
+        "name": "Селина",
+        "avatar": "https://i.postimg.cc/J7kTB1hP/image.webp"
+      }
+    },
+
+    {
+      "id": 66,
+      "title": "Создание иллюзорного театра",
+      "description": "Городские власти хотят удивить гостей магической постановкой.",
+      "customerName": "Мэр Волдрин",
+      "reward": 1250,
+      "status": "новый",
+      "deadline": "2025-04-10",
+      "createdAt": "2025-02-23T08:00:00Z",
+      "assignee": {
+        "id": 3,
+        "name": "Ивеус",
+        "avatar": "https://i.postimg.cc/J4CpN9Dm/image.webp"
+      }
+    },
+    {
+      "id": 67,
+      "title": "Устранение привидений на кладбище",
+      "description": "Духи покинувших могил мешают проведению поминок.",
+      "customerName": "Жрецы мёртвых",
+      "reward": 900,
+      "status": "в процессе",
+      "deadline": "2025-03-22",
+      "createdAt": "2025-02-24T09:15:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "Люциус",
+        "avatar": "https://i.postimg.cc/KzK0fbDc/image.webp"
+      }
+    },
+    {
+      "id": 68,
+      "title": "Превращение реки в навигационный канал",
+      "description": "Нужно изменить русло реки с помощью магии воды.",
+      "customerName": "Князь Эден",
+      "reward": 3200,
+      "status": "в процессе",
+      "deadline": "2025-05-20",
+      "createdAt": "2025-02-25T10:00:00Z",
+      "assignee": {
+        "id": 7,
+        "name": "Фрея",
+        "avatar": "https://i.postimg.cc/RFjXbYg7/image.webp"
+      }
+    },
+    {
+      "id": 69,
+      "title": "Запечатывание портала хаоса",
+      "description": "Опасный портал открылся в заброшенных руинах, оттуда лезут монстры.",
+      "customerName": "Орден Паладинов",
+      "reward": 4500,
+      "status": "новый",
+      "deadline": "2025-06-10",
+      "createdAt": "2025-02-26T15:00:00Z",
+      "assignee": {
+        "id": 4,
+        "name": "Мерлин",
+        "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
+      }
+    },
+    {
+      "id": 70,
+      "title": "Проверка магического купола столицы",
+      "description": "Раз в год требуется полная диагностика и усиление купола.",
+      "customerName": "Королевская стража",
+      "reward": 3800,
+      "status": "новый",
+      "deadline": "2025-06-25",
+      "createdAt": "2025-02-27T10:30:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Гендальф",
+        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
+      }
+    }
+  ]
+}
