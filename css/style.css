@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Gotic';
+    src: 
+        url('../fonts/Gotic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GoticT';
+    src: 
+        url('../fonts/Gitic_title.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #434364;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+p:not(:first-child) {
+    margin-block-start: 1em;
+}
+
+/* Основные стили */
+.wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+[class*="_container"] {
+    box-sizing: content-box;
+
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 15px;
+}
+
+
+.main {
+    font-family: 'Gotic';
+}
+
+/* QUESTS */
+.quests {}
+
+.quests_container {
+    display: flex;
+}
+
+.quests_quest-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.quests_quest-list-item {
+    background-color: blueviolet;
+
+    color: #f7fb00;
+    font-family: GoticT;
+    font-size: 22PX;
+}
+
+.quest_body {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+    height: 720px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quest_body>* {
+    margin-bottom: 30px;
+}
+
+.quest_body_title {
+    font-family: GoticT;
+    font-size: 43px;
+    color: black;
+}
+
+.quest_body_desk {
+    display: flex;
+    text-align: left;
+}
+
+.quest_body_desk_customer {
+    flex: 50%;
+    display: flex;
+    gap: 5px;
+}
+
+.quest_body_desk_customer_img {
+    width: 50%;
+}
+.quest_body_desk_customer_img img{
+    object-fit: cover;
+    width: 150px;
+    height: auto;
+}
+
+.quest_body_desk_customer_name {}
+
+.quest_body_desk_customer_reward {
+    display: inline;
+    position: relative;
+}
+
+.quest_body_desk_customer_reward::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -35px;
+
+    height: 25px;
+    width: 30px;
+
+    background: url(/img/coin.svg) no-repeat;
+
+
+}
+
+.quest_body_desk_customer_status {}
+
+.quest_body_desk_text {
+    flex: 50%;
+
+}
+
+.quest_body_desk_text_title {
+    font-family: GoticT;
+    font-size: 26PX;
+    font-weight: 600;
+}
+
+.quest_body_desk_text_desk {
+    margin-top: 10px;
+}
+
+.quest_body_desk_text_create {
+    margin-top: 10px;
+}
+
+.quest_body_desk_text_deadline {}
+
+.quest_body_assignee-title {
+    font-family: GoticT;
+    font-size: 26PX;
+    font-weight: 600;
+}
+
+.quest_body_assignee_body {
+    display: flex;
+    justify-content: ;
+}
+
+.quest_body_assignee_body_img {
+    height: 100%;
+    width: 50%;
+}
+
+.quest_body_assignee_body_img img {
+    object-fit: cover;
+    height: 100%;
+    width: 200px;
+
+}
+
+.quest_body_assignee_body_name {}
+
+
+.bg-h {
+    background: url('/img/bg-h.png');
+    /* background: url('/img/bg-h.png') -394px -366px/230% auto no-repeat; */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
