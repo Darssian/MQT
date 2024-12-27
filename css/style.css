@@ -1,13 +1,14 @@
 @font-face {
     font-family: 'Gotic';
-    src: 
+    src:
         url('../fonts/Gotic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'GoticT';
-    src: 
+    src:
         url('../fonts/Gitic_title.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -23,9 +24,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #434364;
+    background-color: black;
 }
 
 a {
@@ -42,11 +41,6 @@ p:not(:first-child) {
 }
 
 /* Основные стили */
-.wrapper {
-    margin: 0 auto;
-    overflow: hidden;
-    min-height: 100vh;
-}
 
 [class*="_container"] {
     box-sizing: content-box;
@@ -66,21 +60,121 @@ p:not(:first-child) {
 
 .quests_container {
     display: flex;
+
+    justify-content: space-between;
 }
 
 .quests_quest-list {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    gap: 10px;
 
+    max-height: 100vh;
+    overflow-y: auto;
+
+    width: 325px;
+    padding-left: 10px;
+}
+
+.quests_quest-list {
+    scrollbar-width: thin;
+    scrollbar-color: #8b4513 #4b2c20;
+}
+
+.quests_quest-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.quests_quest-list::-webkit-scrollbar-track {
+    background: #4b2c20;
+    border: 2px solid #8b4513;
+    border-radius: 10px;
+}
+
+.quests_quest-list::-webkit-scrollbar-thumb {
+    background: #8b4513;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.quests_quest-list::-webkit-scrollbar-thumb:hover {
+    background: #a0522d;
+    border-color: #ffdf00;
+    box-shadow: inset 0 0 8px rgba(255, 215, 0, 0.7);
+}
+
+.quests_quest-list h2 {
+    background-color: #4b2c20;
+    color: #ffd700;
+    font-family: "GoticT";
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    border: 3px solid #8b4513;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, background-color 0.3s;
+    width: 295px;
 }
 
 .quests_quest-list-item {
-    background-color: blueviolet;
+    background-color: #4b2c20;
+    color: #ffd700;
+    font-size: 22px;
+    font-family: 'Gotic';
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 295px;
+    min-height: 40px;
+    padding: 0 20px;
+    text-align: left;
+    border: 2px solid #8b4513;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
 
-    color: #f7fb00;
-    font-family: GoticT;
-    font-size: 22PX;
+.quests_quest-list-item:hover {
+    background-color: #5c3b28;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+.quests_quest-list-item:active {
+    background-color: #3e261a;
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.quest_delete {
+    width: 25px;
+    height: 25px;
+
+    background: transparent;
+    border: transparent;
+}
+
+.quest-delete img {
+    pointer-events: none;
+    width: 25px;
+    height: 25px;
+}
+#quest_edit{
+    width: 50px;
+    height: 50px;
+
+    background: transparent;
+    border: transparent;
+}
+#quest_edit img{
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
 }
 
 .quest_body {
@@ -88,31 +182,89 @@ p:not(:first-child) {
     color: black;
     font-size: 20px;
 
-    height: 720px;
-    padding: 15px;
+    height: fit-content;
+    width: 720px;
+    padding: 15px 0 0 0;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.quest_body>* {
-    margin-bottom: 30px;
+    gap: 30px;
 }
 
 .quest_body_title {
     font-family: GoticT;
     font-size: 43px;
     color: black;
+    text-shadow: 2px 2px 4px black;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.modal-content p {
+margin-bottom: 30px;
+}
+
+.modal .btn-confirm {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal .btn-cancel {
+    background: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#edit-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .quest_body_desk {
     display: flex;
     text-align: left;
+    gap: 10px;
 }
 
 .quest_body_desk_customer {
-    flex: 50%;
+    flex: 60%;
     display: flex;
     gap: 5px;
 }
@@ -120,7 +272,8 @@ p:not(:first-child) {
 .quest_body_desk_customer_img {
     width: 50%;
 }
-.quest_body_desk_customer_img img{
+
+.quest_body_desk_customer_img img {
     object-fit: cover;
     width: 150px;
     height: auto;
@@ -174,16 +327,17 @@ p:not(:first-child) {
     font-family: GoticT;
     font-size: 26PX;
     font-weight: 600;
+
+    text-align: left;
 }
 
 .quest_body_assignee_body {
     display: flex;
-    justify-content: ;
+    gap: 15px;
 }
 
 .quest_body_assignee_body_img {
     height: 100%;
-    width: 50%;
 }
 
 .quest_body_assignee_body_img img {
@@ -197,8 +351,36 @@ p:not(:first-child) {
 
 
 .bg-h {
-    background: url('/img/bg-h.png');
+    position: relative;
+
+}
+
+.bg-h::after {
+    content: "";
+    position: absolute;
+    top: -26px;
+    left: -610px;
+    z-index: -2;
+
+    background: url('/img/header.jpg');
     /* background: url('/img/bg-h.png') -394px -366px/230% auto no-repeat; */
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: auto;
+    height: 100%;
+    width: 1701px;
+}
+
+.bg-h::before {
+    content: "";
+    position: absolute;
+    bottom: -674px;
+    left: -610px;
+    z-index: -3;
+    background: url(/img/footer.jpg);
+    /* background: url(/img/bg-h.png) -394px -366px / 230% auto no-repeat; */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    height: 765px;
+    width: 1701px;
 }
