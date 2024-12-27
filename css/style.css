@@ -164,14 +164,17 @@ p:not(:first-child) {
     width: 25px;
     height: 25px;
 }
-#quest_edit{
-    width: 50px;
-    height: 50px;
+
+#quest_edit {
+    display: flex;
+    justify-content: end;
 
     background: transparent;
     border: transparent;
+    width: 85%;
 }
-#quest_edit img{
+
+#quest_edit img {
     pointer-events: none;
     width: 50px;
     height: 50px;
@@ -220,11 +223,11 @@ p:not(:first-child) {
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 .modal-content p {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .modal .btn-confirm {
@@ -251,7 +254,7 @@ margin-bottom: 30px;
     visibility: visible;
 }
 
-#edit-form{
+#edit-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -269,9 +272,7 @@ margin-bottom: 30px;
     gap: 5px;
 }
 
-.quest_body_desk_customer_img {
-    width: 50%;
-}
+.quest_body_desk_customer_img {}
 
 .quest_body_desk_customer_img img {
     object-fit: cover;
