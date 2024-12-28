@@ -1034,21 +1034,6 @@
         "name": "Мерлин",
         "avatar": "https://i.postimg.cc/k5HcBZ30/image.webp"
       }
-    },
-    {
-      "id": "70",
-      "title": "Проверка магического купола столицы",
-      "description": "Раз в год требуется полная диагностика и усиление купола.",
-      "customerName": "Королевская стража",
-      "reward": 3800,
-      "status": "новый",
-      "deadline": "2025-06-25",
-      "createdAt": "2025-02-27T10:30:00Z",
-      "assignee": {
-        "id": 2,
-        "name": "Гендальф",
-        "avatar": "https://i.postimg.cc/k5GsMCZN/image.webp"
-      }
     }
   ]
 }
